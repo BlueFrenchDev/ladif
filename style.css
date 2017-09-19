@@ -1,0 +1,433 @@
+@font-face {
+  font-family: "Fredericka the Great";
+  src: url('./font/FrederickatheGreat-Regular.ttf') format('ttf'); /* Chrome 4+, Firefox 3.5, Opera 10+, Safari 3—5 */
+} 
+
+body
+{
+    font-family: "Fredericka the Great";
+    background-color: #FFFF;
+}
+
+ol,ul
+{
+    list-style: none;
+}
+
+.navbar-default .navbar-collapse, .navbar-default .navbar-form {
+    background-color: #F0F6EB;
+}
+
+.navbar .navbar-nav
+{
+    display: inline-block;
+    float: none;
+}
+
+.navbar .navbar-collapse {
+    text-align: center;
+}
+
+a
+{
+    padding-right: 15px;
+    color: black !important;
+    text-transform: uppercase;
+}
+
+a:hover
+{
+    color: blue !important;
+    text-decoration: none;
+}
+
+#heading
+{
+    padding-bottom: 10px;
+    background-color: #FFE4C4;
+
+}
+
+.navbar-brand
+{
+    margin-top: 5px;
+    background-color: #FFE4C4;
+
+}
+
+#menu
+{
+    background: blue;
+    float: left;
+    position: fixed;
+    left: 0;
+    width: 200px;
+    height: auto;
+    margin: 60px 20px 10px 15px;
+}
+
+#agend
+{
+    width: 300px;
+    height: 800px;
+}
+
+#headagend
+{
+    position: absolute;
+    text-align: center;
+    width: 300px;
+    height: 50px;
+    margin: 60px 15px 0px 20px;
+    padding: -5px;
+    background: brown;
+    color: white;
+    box-shadow: 5px 5px 1px rgba(0, 0, 0, 0.4);
+}
+
+#headagend>h2{
+    margin-top: 0px;
+}
+#agenda
+{
+    border: 2px solid brown;
+    float: left;
+    position: relative;
+    left: 0;
+    width: 300px;
+    height: 975px;
+    margin: 120px 15px 10px 20px;
+    text-align: center;
+    padding: 20px 0 0px 0;
+    box-shadow: 5px 5px 1px rgba(0, 0, 0, 0.4);
+    border-radius: 20px;
+    overflow-y: scroll;
+}
+
+#agenda h3
+{
+    margin: -10px 0 -15px 0;
+}
+
+#agenda p
+{
+    margin: 0px;
+}
+
+#core
+{
+    position: relative;
+    float: none;
+    width: 1300px;
+    height: auto;
+    margin: 60px 0 90px 335px; 
+}
+
+#bara
+{
+    position: relative;
+    background-image:url(images/Baradif_Accueil.png);
+    float: none;
+    width: auto;
+    height: 400px;
+    padding: 90px 15px 0 15px;
+    margin: 10px 0 -10px 0;
+    text-align: center;
+    background-color: black;
+    background-image:url('images/Baradif_Accueil.png');
+    background-repeat:no-repeat;
+    background-size: contain;
+    background-position: right;
+}
+
+#bara h2
+{
+    float: left;
+    margin-top: -30px;
+    font-size: 70px;
+    color: white;
+}
+
+#bara h3
+{
+    color: white;
+    font-size: 22px;
+    position: absolute;
+    margin: 40px 0 0 4px;
+}
+
+#video
+{
+    position: relative;
+    float: right;
+    text-align: center;
+    width: 650px;
+    height: 400px;
+    margin-bottom: 10px;
+}
+
+#galerie
+{
+    position: relative;
+    float: left;
+    text-align: center;
+    width: 48%;
+    height: 400px;
+    margin-bottom: 10px;
+}
+
+#actu
+{
+    position: absolute;
+    width: auto;
+    height: auto;
+    margin: 30px 0 10px 0;
+    padding-top: 100px;
+    display: flex;
+}
+
+.head
+{
+    background: rgba(165, 42, 42, 1);
+    width: 100%;
+    height: 50px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    color: white;
+    padding: -4px;
+    box-shadow: 5px 5px 1px rgba(0, 0, 0, 0.4);
+}
+
+.title
+{
+    color: brown;
+}
+
+.brown-divider
+{
+    width: 150px;
+    height: 2px;
+    background: rgba(0, 0, 0, 0.2);
+    margin: -10px auto 25px auto;
+}
+
+#first,#second,#third
+{
+    position: absolute;
+    width: 400px;
+    padding: 20px;
+    height: 250px;
+    border: 1px solid brown;
+    border-radius: 20px;
+    display: inline-block;
+    box-shadow: 5px 5px 1px rgba(0, 0, 0, 0.4);
+    color: black;
+    text-align: center;
+    margin-top: 265px;
+}
+
+#first
+{
+    margin-right: 30px;
+    margin-left: 10px;
+}
+
+#second
+{
+    margin-left: 450px;
+    margin-right: 30px
+}
+
+#third
+{
+
+    margin-right: 30px;
+    margin-left: 900px;
+}
+
+#account
+{
+    background: white;
+    width: 400px;
+    height: 400px;
+    margin: 80px auto;
+    font-size: 30px;
+}
+
+.actutitle
+{
+    font-weight: bold;
+    text-transform: capitalize;
+}
+
+#login
+{
+    position: absolute;
+    width: 90%;
+    height: 80%;
+    margin: 100px 5% 90px 5%;
+    border: 2px solid brown;
+    border-radius: 90px;
+}
+
+#login h2
+{
+    text-align: center;
+    font-size: 50px;
+    margin-top: 70px;
+}
+
+#logform
+{
+    position: relative;
+    width: 40%;
+    height: 80%;
+    text-align: center;
+    margin: 60px auto;
+}
+
+label
+{
+    margin-top: 60px;
+    font-size: 20px;
+}
+
+button
+{
+    margin-top: 70px;
+    width: 200px;
+    height: 40px;
+}
+
+#contact
+{
+    position: absolute;
+    width: 90%;
+    height: auto;
+    margin: 100px 5% 90px 5%;
+    border: 2px solid brown;
+    border-radius: 90px;
+    text-align: center;
+}
+
+#contact h2
+{
+    text-align: center;
+    font-size: 50px;
+    margin-top: 40px;
+}
+
+#contactform
+{
+    position: relative;
+    width: 40%;
+    height: 80%;
+    margin: 10px;
+}
+
+.int
+{
+    width: 600px;
+    margin: 0 auto;
+}
+
+#message
+{
+    width: 600px;
+    height: 200px;
+    margin: 0 auto;
+}
+
+.lab
+{
+    margin: 20px auto;
+}
+
+#submessage
+{
+    margin: 20px;
+}
+
+textarea
+{
+    resize: none;
+}
+
+#register
+{
+    position: absolute;
+    width: 90%;
+    height: auto;
+    margin: 100px 5% 90px 5%;
+    border: 2px solid brown;
+    border-radius: 90px;
+    text-align: center;
+}
+
+#register h2
+{
+    text-align: center;
+    font-size: 50px;
+    margin-top: 40px;
+}
+
+.h2, h2 {
+    font-size: 25px;
+    padding: 9px;
+}
+
+#regi
+{
+    text-align: center;
+}
+
+#photo
+{
+    width: 85%;
+    height: 300px;
+    position: relative;
+    background: red;
+    margin: 80px 7.5% 10px 7.5%;
+}
+
+#text
+{
+    width: 85%;
+    height: 500px;
+    position: relative;
+    background: blue;
+    margin: 20px 7.5% 10px 7.5%;
+}
+
+#footer
+{
+    width: 85%;
+    height: 130px;
+    position: relative;
+    background: brown;
+    margin: 20px 7.5% 10px 7.5%;
+}
+
+#type h2
+{
+    text-align: center;
+    color: white;
+}
+
+.dropdown:hover .dropdown-menu {
+    display: block;
+    margin-top: 0;
+    width: auto;
+    height: auto;
+        background: brown;
+ }
+
+.dropdown-menu,.dropdown-toggle{
+    min-width: 90px;
+}
+
+.carousel-caption
+{
+    color: forestgreen;
+    font-weight: bolder;
+}
